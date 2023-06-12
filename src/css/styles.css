@@ -1,0 +1,435 @@
+html {
+    font-family: sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 1em;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #841c24;
+    line-height: 2rem;
+}
+
+h2 {
+    margin: 30px 0;
+    text-align: left;
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    line-height: 2rem;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.7rem;
+}
+
+/* Cabecera */
+header {
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    overflow: hidden;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+header div {
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    background-image: url('../img/milogo.webp');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px;
+    height: 130px;
+    display: inline-block;
+}
+
+.logoPeq {
+    background-image: url('../img/milogo.webp');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    float: right;
+    width: 50px;
+    height: 45px;
+    margin: 0 3rem;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    color: #fff(0, 0, 0);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    padding: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-inline: 300px;
+    display: inline-block;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: #841c24;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(93, 95, 121);
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 3rem;
+}
+
+#containerIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+#prev,
+#next {
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+#containerIndex figure img, .imgPrincipal, .imgPrincipal img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.portada img, .portada{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 15% 100%, 0 52%, 15% 1%);
+}
+
+#containerIndex figure p a {
+    color: rgb(93, 95, 121);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#containerIndex figure {
+    margin: 0;
+}
+
+#containerIndex figure p {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.svgAnimacion {
+    animation: animacion 3s ease-in-out;
+    width: 80%;
+    margin:30px;
+}
+
+figcaption {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+blockquote {
+    background-color: rgb(227, 228, 230);
+    margin: 30px auto;
+    font-size: 0.8rem;
+    width: 80%;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.mainEstrecho figure {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.textoGrande {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.textoMed {
+    font-size: 1.2rem;
+    padding: 5px 0;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.textoPeq p {
+    font-size: 0.55rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.sinMargenVertical {
+    margin: 0 auto;
+}
+
+.textoNegrita {
+    font-weight: 700;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+/* Lista descriptiva*/
+
+dt {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+dd {
+    margin: 0 1.9rem;
+}
+
+.cuadradoNaranja {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #841c24;
+    margin: 0 0.6rem;
+}
+
+/* Detalles */
+#contenedorDetallesList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contenedorDetallesList>section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+#contenedorDetallesList figure {
+    margin: 0;
+    width: 100%;
+}
+
+#contenedorDetallesList figure img {
+    width: 100%;
+    height: auto;
+}
+
+h1.numeroRojo {
+    color: #841c24;
+    text-align: left;
+    margin: 0;
+}
+
+.tituloDetalle {
+    width: 100%;
+}
+
+.tituloDetalle p {
+    font-weight: 700;
+}
+
+.descripcionDetalle {
+    width: 100%;
+}
+
+.lugaresInteres {
+    font-size: 1rem;
+}
+
+/* Pié de página */
+footer {
+    padding: 2rem 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+/* TABLET */
+@media screen and (min-width: 700px) {
+
+    html {
+        letter-spacing: 0.7px;
+        line-height: 1.3rem;
+    }
+
+    h1 {
+        margin: 30px 0;
+        font-size: 2.5em;
+    }
+
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    figure {
+        margin: 20px 0;
+    }
+
+    #containerIndex {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #containerIndex figure p {
+        text-align: left;
+    }
+
+    #contenedorDetallesList>section {
+        flex-direction: row;
+    }
+
+    .tituloDetalle,
+    #contenedorDetallesList>section>figure {
+        width: 25%;
+    }
+
+    .descripcionDetalle {
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    div input[type=email] {
+        width: 40%;
+    }
+
+    footer ul li {
+        display: inline-block;
+    }
+}
+
+/* PC */
+@media screen and (min-width: 992px) {
+
+    header div {
+        float: left;
+    }
+
+    nav {
+        float: left;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    #contenedorDetalles {
+        flex-direction: row;
+    }
+
+    #contenedorDetalles>ul {
+        width: 20%;
+        text-align: left;
+    }
+
+    #contenedorDetalles>ul>li {
+        display: block;
+        line-height: 1rem;
+    }
+
+    #contenedorDetalles>ul>li:after {
+        display: none;
+    }
+
+    #contenedorDetallesList {
+        width: 80%;
+    }
+
+    #containerIndex {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    header {
+        margin: 1rem auto;
+        max-width: 80%;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    .mainEstrecho {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
