@@ -89,6 +89,7 @@ nav a {
     color: #fff(0, 0, 0);
     font-weight: 800;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 main ul {
@@ -102,12 +103,6 @@ main li {
     margin-bottom: 10px;
     margin-inline: 300px;
     display: inline-block;
-}
-
-
-nav a {
-    text-decoration: none;
-    color: white
 }
 
 a {
@@ -169,11 +164,6 @@ main {
     text-align: center;
 }
 
-iframe {
-    display: block;
-    margin: 0 auto;
-}
-
 @keyframes animacion {
     0% {
         opacity: 0;
@@ -190,37 +180,9 @@ iframe {
     margin:30px;
 }
 
-figcaption {
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 0.6rem;
-}
-
-blockquote {
-    background-color: rgb(227, 228, 230);
-    margin: 30px auto;
-    font-size: 0.8rem;
-    width: 80%;
-    padding: 1rem;
-    color: rgb(0, 0, 0);
-}
-
 .mainEstrecho figure {
     margin: 1rem auto;
     width: 100%;
-}
-
-.textoGrande {
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    padding-top: 15px;
-}
-
-.textoMed {
-    font-size: 1.2rem;
-    padding: 5px 0;
-    font-weight: 400;
-    margin: 10px 0;
 }
 
 .textoPeq p {
@@ -229,29 +191,12 @@ blockquote {
     font-weight: 400;
 }
 
-.sinMargenVertical {
-    margin: 0 auto;
-}
-
-.textoNegrita {
-    font-weight: 700;
-}
-
-.textoCentrado {
-    text-align: center;
-}
-
 .centrado {
     display: flex;
     justify-content: center;
 }
 
-abbr {
-    text-decoration: none;
-}
-
 /* Lista descriptiva*/
-
 dt {
     font-weight: 700;
     font-size: 1rem;
@@ -367,10 +312,6 @@ footer {
     .descripcionDetalle {
         width: 50%;
         margin-left: 1rem;
-    }
-
-    div input[type=email] {
-        width: 40%;
     }
 
     footer ul li {

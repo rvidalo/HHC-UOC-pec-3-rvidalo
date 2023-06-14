@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página sobre el turismo de la práctica realizada para la asignatura Herramientas HTML y CSS.">
 	<title>Zahara de la sierra - Lugares de interés</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 	<link type="text/css" rel="stylesheet" href="css/styles.css" />
@@ -15,7 +16,7 @@
 
 	<header>
 		<div>
-			<a href="index.html">
+			<a href="index.html"  aria-label="Logo de la web">
 				<div class="logo"></div>
 			</a>
 		</div>
@@ -30,7 +31,11 @@
 					<p class="nombreDetalle">Castillo</p>
 				</div>
 				<figure>
-					<img src="img/castillo.webp" alt="Imagen del castillo">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/castillo3.webp">
+						<source media="(min-width: 341px)" srcset="img/castillo2.webp">
+						<img alt="Imagen del castillo" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>Este emblemático castillo del siglo XIII se encuentra en lo alto de una montaña y ofrece vistas panorámicas
@@ -46,7 +51,11 @@
 					<p class="nombreDetalle">Mirador puente de los suspiros</p>
 				</div>
 				<figure>
-					<img src="img/mirador.webp" alt="Imagen del mirador" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/mirador2.webp">
+						<source media="(min-width: 341px)" srcset="img/mirador.webp">
+						<img alt="Imagen del mirador" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>Este pintoresco mirador ofrece una vista panorámica única del embalse de Zahara-El Gastor y del Puente de los Suspiros,
@@ -61,7 +70,11 @@
 					<p class="nombreDetalle">La playita</p>
 				</div>
 				<figure>
-					<img src="img/playita.webp" alt="Imagen de la playita" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/playita3.webp">
+						<source media="(min-width: 341px)" srcset="img/playita2.webp">
+						<img alt="Imagen de la playita" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>La playa de Zahara de la Sierra, en Cádiz, ofrece un oasis de aguas turquesas y arenas doradas en plena sierra andaluza.
@@ -78,7 +91,11 @@
 					<p class="nombreDetalle">Embalse de Zahara-El Gastor</p>
 				</div>
 				<figure>
-					<img src="img/embalse.webp" alt="Imagen del embalse" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/embalse3.webp">
+						<source media="(min-width: 341px)" srcset="img/embalse2.webp">
+						<img alt="Imagen del embalse" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>Este embalse ofrece la posibilidad de practicar actividades acuáticas como la pesca, la navegación y el piragüismo, así
@@ -93,7 +110,11 @@
 					<p class="nombreDetalle">Iglesia de Santa María de la Mesa</p>
 				</div>
 				<figure>
-					<img src="img/iglesia.webp" alt="Imagen de la iglesia" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/iglesia3.webp">
+						<source media="(min-width: 341px)" srcset="img/iglesia2.webp">
+						<img alt="Imagen de la iglesia" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>Esta iglesia del siglo XV es un destacado ejemplo de arquitectura religiosa en Zahara de la Sierra, con su impresionante
@@ -108,7 +129,11 @@
 					<p class="nombreDetalle">Casco antiguo</p>
 				</div>
 				<figure>
-					<img src="img/calles.webp" alt="Imagen de los callejones de Zahara" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/calles2.webp">
+						<source media="(min-width: 341px)" srcset="img/calles.webp">
+						<img alt="Imagen de los callejones de Zahara" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>El casco antiguo de Zahara de la Sierra es famoso por sus estrechas calles empedradas, casas encaladas y arquitectura
@@ -123,7 +148,11 @@
 					<p class="nombreDetalle">Ruta de los molinos</p>
 				</div>
 				<figure>
-					<img src="img/molinos.webp" alt="Imagen de los molinos" loading="lazy" width="300" height="200">
+					<picture>
+						<source media="(max-width: 340px)" srcset="img/molinos2.webp">
+						<source media="(min-width: 341px)" srcset="img/molinos.webp">
+						<img alt="Imagen de los molinos" loading="lazy" width="300" height="200">
+					</picture>
 				</figure>
 				<div class="descripcionDetalle">
 					<p>Zahara de la Sierra cuenta con varios molinos de viento restaurados que forman parte de una ruta turística que permite
